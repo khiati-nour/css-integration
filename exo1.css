@@ -1,43 +1,33 @@
 
+p {
+    /*text-align: center;*/
+}
 
+h2 {
+
+    /*text-align: center;*/
+    color:cadetblue;
+}
+#one , #two , #three, #four {margin: 20px}
 .flex-container {
     display: flex;
-
-}
-
-
-
-/*.flex-container > div {
-
-
-}*/
-.flex-container {
     flex-direction: row ;
-    flex-flow: row nowrap;
-    align-items: center;
-
-
 
 }
+
+
+
 img {
     max-width:100%;
     height:auto;
 }
-/*.one {
-    height: 40px;
-    width:30px;
+
+
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction:row;
+    }
+    #one , #two , #three, #four {margin: 0}
 }
 
-.two {
-    height: 40px;
-    width: 30px;
-}
-
-.three {
-    height: 40px;
-    width: 30px;
-}
-.four {
-    height: 40px;
-    width: 30px;
-}*/
