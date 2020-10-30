@@ -21,16 +21,13 @@ h3,h1{
 }
 body{
     background-color: royalblue;
-    align-content: center;
+    /*text-align: center;*/
     font-family:Arial;
 }
-#one{
+/*#one{
     padding: 0;
-}
-img {
-    max-width:100%;
-    height:auto;
-}
+}*/
+
 
 table, th,td {
     border: 1px solid black;
@@ -39,9 +36,7 @@ table, th,td {
     border-bottom-style: hidden;
     border-top-style: hidden;
 }
-#two{
-    text-align: left;
-}
+
 #three{
 position: absolute;
 right:    0;
@@ -54,3 +49,5 @@ padding: 20px}
     font-size: xx-large;
 
 }
+
+
