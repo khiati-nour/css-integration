@@ -1,0 +1,43 @@
+
+
+.flex-container {
+    display: flex;
+
+}
+
+
+
+/*.flex-container > div {
+
+
+}*/
+.flex-container {
+    flex-direction: row ;
+    flex-flow: row nowrap;
+    align-items: center;
+
+
+
+}
+img {
+    max-width:100%;
+    height:auto;
+}
+/*.one {
+    height: 40px;
+    width:30px;
+}
+
+.two {
+    height: 40px;
+    width: 30px;
+}
+
+.three {
+    height: 40px;
+    width: 30px;
+}
+.four {
+    height: 40px;
+    width: 30px;
+}*/
