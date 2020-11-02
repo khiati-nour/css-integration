@@ -15,6 +15,8 @@ h2 {
 .flex-container {
     display: flex;
     flex-direction: row ;
+    max-width: 1000px;
+    margin: 0 auto;
 
 }
 
@@ -23,6 +25,7 @@ h2 {
 img {
     max-width:100%;
     height:auto;
+    margin: 0 auto;
 }
 
 

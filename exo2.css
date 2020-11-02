@@ -1,53 +1,91 @@
 
-p{
 
 
+
+
+
+
+
+html {
+    box-sizing: border-box;
+}
+/*.users p{font-size: 100px;*/
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#mockup {
+    width: 332px;
+    height: 516px;
+    background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-yu-3-21/master/1.The-Field/5.End-of-Field/1.Trial-Run/images/13.ui-chart-2.png?token=AAFTYPC4SCNSITCGMEUCNLS7BBK7I);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0.5;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.widget {
+    /* width: calc(332px - 24px - 24px - 6px - 6px); */
+    width: calc(332px - 6px - 6px);
+    height: calc(516px - 6px - 6px);
+    margin: 6px;
+    background-color: #568DE9;
+    padding: 24px;
     color: white;
 }
-h3,h1{
+tr {
+    border-bottom: 1px solid lightgray;
+}
+
+.widget h2 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: normal;
+}
+a{
     color: white;
 }
-.flex-container {
-    display: flex;
-    flex-direction: column ;
 
+img{
+    height: 150px;
+    width:  100%;
+    padding-bottom: 20px;
+}
+.users p{
+    font-size: xx-large;
 }
 
 
+table{
+    text-align: left;
 
 
-#one,#two,#three{
-    color: white;
-}
-body{
-    background-color: royalblue;
-    /*text-align: center;*/
-    font-family:Arial;
-}
-/*#one{
-    padding: 0;
-}*/
-
-
-table, th,td {
-    border: 1px solid black;
-    border-right-style:hidden;
-    border-left-style:hidden;
-    border-bottom-style: hidden;
-    border-top-style: hidden;
 }
 
-#three{
-position: absolute;
+footer{
+
+    text-align: right;
+    border-top: 1px solid lightgray;
+    padding-top: 80px;
+
+
+
+/*position: absolute;
 right:    0;
 bottom:   0;
-padding: 20px}
+padding: 20px*/}
 
-.next {
 
-    color: white;
-    font-size: xx-large;
-
-}
 
 
